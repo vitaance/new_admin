@@ -31,3 +31,16 @@ npx dotenv -e .env.production next dev
 
 After doing step two, copy and paste the generated path in your browser
 
+## How to build the project
+
+To build, select the environment (in this example we use production) you want to use and run:
+
+```bash
+  NODE_ENV=production npm run build
+```
+
+To start the server, select the environment (in this example we use production) you want to use and run:
+ 
+ ```bash
+  NODE_ENV=production npm run start
+ ```
